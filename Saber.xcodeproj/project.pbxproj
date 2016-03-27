@@ -7,16 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60BAB7E1C708B390040504E /* Siren.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C60BAB7C1C708B390040504E /* Siren.bundle */; };
+		C60BAB7F1C708B390040504E /* Siren.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BAB7D1C708B390040504E /* Siren.swift */; };
+		C60BAB821C708C200040504E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C60BAB811C708C200040504E /* Info.plist */; };
+		C610BEA71C83000E00FDEF3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610BEA61C83000E00FDEF3D /* Foundation.framework */; };
+		C610BEE81C831B9300FDEF3D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610BEE61C831B9300FDEF3D /* Interface.storyboard */; };
+		C610BEEA1C831B9300FDEF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610BEE91C831B9300FDEF3D /* Assets.xcassets */; };
+		C610BEF11C831B9300FDEF3D /* WatchSaber Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C610BEF01C831B9300FDEF3D /* WatchSaber Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C610BEF81C831B9300FDEF3D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610BEF71C831B9300FDEF3D /* InterfaceController.swift */; };
+		C610BEFA1C831B9300FDEF3D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610BEF91C831B9300FDEF3D /* ExtensionDelegate.swift */; };
+		C610BEFC1C831B9300FDEF3D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610BEFB1C831B9300FDEF3D /* NotificationController.swift */; };
+		C610BEFE1C831B9300FDEF3D /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610BEFD1C831B9300FDEF3D /* GlanceController.swift */; };
+		C610BF001C831B9300FDEF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610BEFF1C831B9300FDEF3D /* Assets.xcassets */; };
+		C610BF041C831B9300FDEF3D /* WatchSaber.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C610BEE41C831B9300FDEF3D /* WatchSaber.app */; };
+		C645A9971C3A95D90045EC5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651934B1C38FAEF00DA3C6E /* ViewController.swift */; };
+		C645A9981C3A95DE0045EC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65193491C38FAEF00DA3C6E /* AppDelegate.swift */; };
+		C645A9991C3A95DF0045EC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65193491C38FAEF00DA3C6E /* AppDelegate.swift */; };
+		C645A99A1C3A95EA0045EC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651934D1C38FAEF00DA3C6E /* Main.storyboard */; };
+		C645A99B1C3A95EB0045EC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651934D1C38FAEF00DA3C6E /* Main.storyboard */; };
+		C645A99F1C3CD3310045EC5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C645A99E1C3CD3310045EC5E /* AVFoundation.framework */; };
+		C645A9A01C3CD5270045EC5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651934B1C38FAEF00DA3C6E /* ViewController.swift */; };
+		C645A9A21C3CED320045EC5E /* On.wav in Resources */ = {isa = PBXBuildFile; fileRef = C645A9A11C3CED320045EC5E /* On.wav */; };
+		C645A9A61C3CED640045EC5E /* Off.wav in Resources */ = {isa = PBXBuildFile; fileRef = C645A9A51C3CED640045EC5E /* Off.wav */; };
+		C645A9AA1C3CFD210045EC5E /* Idle.wav in Resources */ = {isa = PBXBuildFile; fileRef = C645A9A91C3CFD210045EC5E /* Idle.wav */; };
+		C645A9B01C3D1B250045EC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C645A9AF1C3D1B250045EC5E /* LaunchScreen.storyboard */; };
+		C64A558B1C4B712B009A1B69 /* Swing.wav in Resources */ = {isa = PBXBuildFile; fileRef = C64A558A1C4B712B009A1B69 /* Swing.wav */; };
 		C651934A1C38FAEF00DA3C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65193491C38FAEF00DA3C6E /* AppDelegate.swift */; };
 		C651934C1C38FAEF00DA3C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651934B1C38FAEF00DA3C6E /* ViewController.swift */; };
 		C651934F1C38FAEF00DA3C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651934D1C38FAEF00DA3C6E /* Main.storyboard */; };
 		C65193511C38FAEF00DA3C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65193501C38FAEF00DA3C6E /* Assets.xcassets */; };
-		C65193541C38FAEF00DA3C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65193521C38FAEF00DA3C6E /* LaunchScreen.storyboard */; };
 		C651935F1C38FAEF00DA3C6E /* SaberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651935E1C38FAEF00DA3C6E /* SaberTests.swift */; };
 		C651936A1C38FAEF00DA3C6E /* SaberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65193691C38FAEF00DA3C6E /* SaberUITests.swift */; };
+		C65D46C61C3E743500975F65 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65D46C51C3E743500975F65 /* CoreMotion.framework */; };
+		C65D46C81C3E7E7900975F65 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65D46C71C3E7E7900975F65 /* iAd.framework */; };
+		C65D46CA1C3E7E8500975F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65D46C91C3E7E8500975F65 /* UIKit.framework */; };
+		C663A27A1C5A2C490010512E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C663A2791C5A2C490010512E /* AudioToolbox.framework */; };
+		C6A45CEB1C66209500BB7867 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CEA1C66209500BB7867 /* GoogleMobileAds.framework */; };
+		C6A45CED1C6620A900BB7867 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CEC1C6620A900BB7867 /* AdSupport.framework */; };
+		C6A45CEF1C6620B400BB7867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CEE1C6620B400BB7867 /* CoreGraphics.framework */; };
+		C6A45CF11C6620BF00BB7867 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CF01C6620BF00BB7867 /* CoreMedia.framework */; };
+		C6A45CF31C6620CA00BB7867 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CF21C6620CA00BB7867 /* CoreTelephony.framework */; };
+		C6A45CF51C6620D600BB7867 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CF41C6620D600BB7867 /* EventKit.framework */; };
+		C6A45CF71C6620DF00BB7867 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CF61C6620DF00BB7867 /* EventKitUI.framework */; };
+		C6A45CF91C6620EC00BB7867 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CF81C6620EC00BB7867 /* MessageUI.framework */; };
+		C6A45CFB1C6620F600BB7867 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CFA1C6620F600BB7867 /* StoreKit.framework */; };
+		C6A45CFD1C66210300BB7867 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A45CFC1C66210300BB7867 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C610BEF21C831B9300FDEF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C651933E1C38FAEF00DA3C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C610BEEF1C831B9300FDEF3D;
+			remoteInfo = "WatchSaber Extension";
+		};
+		C610BF021C831B9300FDEF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C651933E1C38FAEF00DA3C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C610BEE31C831B9300FDEF3D;
+			remoteInfo = WatchSaber;
+		};
 		C651935B1C38FAEF00DA3C6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C651933E1C38FAEF00DA3C6E /* Project object */;
@@ -33,13 +85,61 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C610BF081C831B9400FDEF3D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C610BEF11C831B9300FDEF3D /* WatchSaber Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C610BF0C1C831B9400FDEF3D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C610BF041C831B9300FDEF3D /* WatchSaber.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C60BAB7C1C708B390040504E /* Siren.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Siren.bundle; sourceTree = "<group>"; };
+		C60BAB7D1C708B390040504E /* Siren.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Siren.swift; sourceTree = "<group>"; };
+		C60BAB811C708C200040504E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Sample App/Siren/Info.plist"; sourceTree = "<group>"; };
+		C60BAB831C708C360040504E /* Siren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Siren.h; path = "../Sample App/Siren/Siren.h"; sourceTree = "<group>"; };
+		C610BEA01C82F4DF00FDEF3D /* Saber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saber-Bridging-Header.h"; sourceTree = "<group>"; };
+		C610BEA61C83000E00FDEF3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C610BEE41C831B9300FDEF3D /* WatchSaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSaber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C610BEE71C831B9300FDEF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C610BEE91C831B9300FDEF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C610BEEB1C831B9300FDEF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C610BEF01C831B9300FDEF3D /* WatchSaber Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSaber Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C610BEF61C831B9300FDEF3D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C610BEF71C831B9300FDEF3D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C610BEF91C831B9300FDEF3D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C610BEFB1C831B9300FDEF3D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C610BEFD1C831B9300FDEF3D /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		C610BEFF1C831B9300FDEF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C610BF011C831B9300FDEF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C645A99E1C3CD3310045EC5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C645A9A11C3CED320045EC5E /* On.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = On.wav; path = ../../../Downloads/On.wav; sourceTree = "<group>"; };
+		C645A9A51C3CED640045EC5E /* Off.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Off.wav; path = ../../../Downloads/Off.wav; sourceTree = "<group>"; };
+		C645A9A91C3CFD210045EC5E /* Idle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Idle.wav; path = ../../../Documents/Idle.wav; sourceTree = "<group>"; };
+		C645A9AF1C3D1B250045EC5E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C64A558A1C4B712B009A1B69 /* Swing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Swing.wav; path = ../../../Downloads/sabersounds/Swing.wav; sourceTree = "<group>"; };
 		C65193461C38FAEF00DA3C6E /* Saber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65193491C38FAEF00DA3C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C651934B1C38FAEF00DA3C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C651934B1C38FAEF00DA3C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		C651934E1C38FAEF00DA3C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C65193501C38FAEF00DA3C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C65193531C38FAEF00DA3C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C65193551C38FAEF00DA3C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C651935A1C38FAEF00DA3C6E /* SaberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C651935E1C38FAEF00DA3C6E /* SaberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberTests.swift; sourceTree = "<group>"; };
@@ -47,13 +147,50 @@
 		C65193651C38FAEF00DA3C6E /* SaberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65193691C38FAEF00DA3C6E /* SaberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberUITests.swift; sourceTree = "<group>"; };
 		C651936B1C38FAEF00DA3C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65D46C51C3E743500975F65 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C65D46C71C3E7E7900975F65 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C65D46C91C3E7E8500975F65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C663A2791C5A2C490010512E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C6A45CEA1C66209500BB7867 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		C6A45CEC1C6620A900BB7867 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C6A45CEE1C6620B400BB7867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6A45CF01C6620BF00BB7867 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C6A45CF21C6620CA00BB7867 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C6A45CF41C6620D600BB7867 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C6A45CF61C6620DF00BB7867 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		C6A45CF81C6620EC00BB7867 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C6A45CFA1C6620F600BB7867 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C6A45CFC1C66210300BB7867 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C610BEED1C831B9300FDEF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C65193431C38FAEF00DA3C6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C610BEA71C83000E00FDEF3D /* Foundation.framework in Frameworks */,
+				C6A45CFD1C66210300BB7867 /* SystemConfiguration.framework in Frameworks */,
+				C6A45CFB1C6620F600BB7867 /* StoreKit.framework in Frameworks */,
+				C6A45CF91C6620EC00BB7867 /* MessageUI.framework in Frameworks */,
+				C6A45CF71C6620DF00BB7867 /* EventKitUI.framework in Frameworks */,
+				C6A45CF51C6620D600BB7867 /* EventKit.framework in Frameworks */,
+				C6A45CF31C6620CA00BB7867 /* CoreTelephony.framework in Frameworks */,
+				C6A45CF11C6620BF00BB7867 /* CoreMedia.framework in Frameworks */,
+				C6A45CEF1C6620B400BB7867 /* CoreGraphics.framework in Frameworks */,
+				C6A45CED1C6620A900BB7867 /* AdSupport.framework in Frameworks */,
+				C6A45CEB1C66209500BB7867 /* GoogleMobileAds.framework in Frameworks */,
+				C663A27A1C5A2C490010512E /* AudioToolbox.framework in Frameworks */,
+				C65D46CA1C3E7E8500975F65 /* UIKit.framework in Frameworks */,
+				C65D46C81C3E7E7900975F65 /* iAd.framework in Frameworks */,
+				C65D46C61C3E743500975F65 /* CoreMotion.framework in Frameworks */,
+				C645A99F1C3CD3310045EC5E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +211,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C60BAB7B1C708B390040504E /* Siren */ = {
+			isa = PBXGroup;
+			children = (
+				C60BAB7C1C708B390040504E /* Siren.bundle */,
+				C60BAB7D1C708B390040504E /* Siren.swift */,
+				C60BAB831C708C360040504E /* Siren.h */,
+				C60BAB811C708C200040504E /* Info.plist */,
+			);
+			name = Siren;
+			path = "../../../Downloads/Siren-master/Siren";
+			sourceTree = "<group>";
+		};
+		C610BEE51C831B9300FDEF3D /* WatchSaber */ = {
+			isa = PBXGroup;
+			children = (
+				C610BEE61C831B9300FDEF3D /* Interface.storyboard */,
+				C610BEE91C831B9300FDEF3D /* Assets.xcassets */,
+				C610BEEB1C831B9300FDEF3D /* Info.plist */,
+			);
+			path = WatchSaber;
+			sourceTree = "<group>";
+		};
+		C610BEF41C831B9300FDEF3D /* WatchSaber Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C610BEF71C831B9300FDEF3D /* InterfaceController.swift */,
+				C610BEF91C831B9300FDEF3D /* ExtensionDelegate.swift */,
+				C610BEFB1C831B9300FDEF3D /* NotificationController.swift */,
+				C610BEFD1C831B9300FDEF3D /* GlanceController.swift */,
+				C610BEFF1C831B9300FDEF3D /* Assets.xcassets */,
+				C610BF011C831B9300FDEF3D /* Info.plist */,
+				C610BEF51C831B9300FDEF3D /* Supporting Files */,
+			);
+			path = "WatchSaber Extension";
+			sourceTree = "<group>";
+		};
+		C610BEF51C831B9300FDEF3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C610BEF61C831B9300FDEF3D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C651933D1C38FAEF00DA3C6E = {
 			isa = PBXGroup;
 			children = (
+				C610BEA61C83000E00FDEF3D /* Foundation.framework */,
+				C6A45CFC1C66210300BB7867 /* SystemConfiguration.framework */,
+				C6A45CFA1C6620F600BB7867 /* StoreKit.framework */,
+				C6A45CF81C6620EC00BB7867 /* MessageUI.framework */,
+				C6A45CF61C6620DF00BB7867 /* EventKitUI.framework */,
+				C6A45CF41C6620D600BB7867 /* EventKit.framework */,
+				C6A45CF21C6620CA00BB7867 /* CoreTelephony.framework */,
+				C6A45CF01C6620BF00BB7867 /* CoreMedia.framework */,
+				C6A45CEE1C6620B400BB7867 /* CoreGraphics.framework */,
+				C6A45CEC1C6620A900BB7867 /* AdSupport.framework */,
+				C6A45CEA1C66209500BB7867 /* GoogleMobileAds.framework */,
+				C663A2791C5A2C490010512E /* AudioToolbox.framework */,
+				C65D46C91C3E7E8500975F65 /* UIKit.framework */,
+				C65D46C71C3E7E7900975F65 /* iAd.framework */,
+				C65D46C51C3E743500975F65 /* CoreMotion.framework */,
+				C645A99E1C3CD3310045EC5E /* AVFoundation.framework */,
+				C60BAB7B1C708B390040504E /* Siren */,
 				C65193481C38FAEF00DA3C6E /* Saber */,
 				C651935D1C38FAEF00DA3C6E /* SaberTests */,
 				C65193681C38FAEF00DA3C6E /* SaberUITests */,
+				C610BEE51C831B9300FDEF3D /* WatchSaber */,
+				C610BEF41C831B9300FDEF3D /* WatchSaber Extension */,
 				C65193471C38FAEF00DA3C6E /* Products */,
+				C645A9A11C3CED320045EC5E /* On.wav */,
+				C645A9A51C3CED640045EC5E /* Off.wav */,
+				C645A9A91C3CFD210045EC5E /* Idle.wav */,
+				C64A558A1C4B712B009A1B69 /* Swing.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +294,8 @@
 				C65193461C38FAEF00DA3C6E /* Saber.app */,
 				C651935A1C38FAEF00DA3C6E /* SaberTests.xctest */,
 				C65193651C38FAEF00DA3C6E /* SaberUITests.xctest */,
+				C610BEE41C831B9300FDEF3D /* WatchSaber.app */,
+				C610BEF01C831B9300FDEF3D /* WatchSaber Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +307,9 @@
 				C651934B1C38FAEF00DA3C6E /* ViewController.swift */,
 				C651934D1C38FAEF00DA3C6E /* Main.storyboard */,
 				C65193501C38FAEF00DA3C6E /* Assets.xcassets */,
-				C65193521C38FAEF00DA3C6E /* LaunchScreen.storyboard */,
+				C645A9AF1C3D1B250045EC5E /* LaunchScreen.storyboard */,
 				C65193551C38FAEF00DA3C6E /* Info.plist */,
+				C610BEA01C82F4DF00FDEF3D /* Saber-Bridging-Header.h */,
 			);
 			path = Saber;
 			sourceTree = "<group>";
@@ -128,6 +335,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C610BEE31C831B9300FDEF3D /* WatchSaber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C610BF091C831B9400FDEF3D /* Build configuration list for PBXNativeTarget "WatchSaber" */;
+			buildPhases = (
+				C610BEE21C831B9300FDEF3D /* Resources */,
+				C610BF081C831B9400FDEF3D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C610BEF31C831B9300FDEF3D /* PBXTargetDependency */,
+			);
+			name = WatchSaber;
+			productName = WatchSaber;
+			productReference = C610BEE41C831B9300FDEF3D /* WatchSaber.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C610BEEF1C831B9300FDEF3D /* WatchSaber Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C610BF051C831B9400FDEF3D /* Build configuration list for PBXNativeTarget "WatchSaber Extension" */;
+			buildPhases = (
+				C610BEEC1C831B9300FDEF3D /* Sources */,
+				C610BEED1C831B9300FDEF3D /* Frameworks */,
+				C610BEEE1C831B9300FDEF3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchSaber Extension";
+			productName = "WatchSaber Extension";
+			productReference = C610BEF01C831B9300FDEF3D /* WatchSaber Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		C65193451C38FAEF00DA3C6E /* Saber */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C651936E1C38FAEF00DA3C6E /* Build configuration list for PBXNativeTarget "Saber" */;
@@ -135,10 +376,12 @@
 				C65193421C38FAEF00DA3C6E /* Sources */,
 				C65193431C38FAEF00DA3C6E /* Frameworks */,
 				C65193441C38FAEF00DA3C6E /* Resources */,
+				C610BF0C1C831B9400FDEF3D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C610BF031C831B9300FDEF3D /* PBXTargetDependency */,
 			);
 			name = Saber;
 			productName = Saber;
@@ -191,9 +434,16 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Ganesh Gautham Industries";
 				TargetAttributes = {
+					C610BEE31C831B9300FDEF3D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9385X723EC;
+					};
+					C610BEEF1C831B9300FDEF3D = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					C65193451C38FAEF00DA3C6E = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = M7JE6Z8GMD;
+						DevelopmentTeam = 9385X723EC;
 					};
 					C65193591C38FAEF00DA3C6E = {
 						CreatedOnToolsVersion = 7.2;
@@ -223,16 +473,41 @@
 				C65193451C38FAEF00DA3C6E /* Saber */,
 				C65193591C38FAEF00DA3C6E /* SaberTests */,
 				C65193641C38FAEF00DA3C6E /* SaberUITests */,
+				C610BEE31C831B9300FDEF3D /* WatchSaber */,
+				C610BEEF1C831B9300FDEF3D /* WatchSaber Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C610BEE21C831B9300FDEF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610BEEA1C831B9300FDEF3D /* Assets.xcassets in Resources */,
+				C610BEE81C831B9300FDEF3D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C610BEEE1C831B9300FDEF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610BF001C831B9300FDEF3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C65193441C38FAEF00DA3C6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65193541C38FAEF00DA3C6E /* LaunchScreen.storyboard in Resources */,
+				C645A9A21C3CED320045EC5E /* On.wav in Resources */,
+				C645A9A61C3CED640045EC5E /* Off.wav in Resources */,
+				C60BAB821C708C200040504E /* Info.plist in Resources */,
+				C645A9AA1C3CFD210045EC5E /* Idle.wav in Resources */,
+				C645A9B01C3D1B250045EC5E /* LaunchScreen.storyboard in Resources */,
+				C64A558B1C4B712B009A1B69 /* Swing.wav in Resources */,
+				C60BAB7E1C708B390040504E /* Siren.bundle in Resources */,
 				C65193511C38FAEF00DA3C6E /* Assets.xcassets in Resources */,
 				C651934F1C38FAEF00DA3C6E /* Main.storyboard in Resources */,
 			);
@@ -242,6 +517,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C645A99A1C3A95EA0045EC5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,17 +525,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C645A99B1C3A95EB0045EC5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C610BEEC1C831B9300FDEF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610BEFC1C831B9300FDEF3D /* NotificationController.swift in Sources */,
+				C610BEFA1C831B9300FDEF3D /* ExtensionDelegate.swift in Sources */,
+				C610BEF81C831B9300FDEF3D /* InterfaceController.swift in Sources */,
+				C610BEFE1C831B9300FDEF3D /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C65193421C38FAEF00DA3C6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C651934C1C38FAEF00DA3C6E /* ViewController.swift in Sources */,
+				C60BAB7F1C708B390040504E /* Siren.swift in Sources */,
 				C651934A1C38FAEF00DA3C6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +557,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C645A9A01C3CD5270045EC5E /* ViewController.swift in Sources */,
+				C645A9981C3A95DE0045EC5E /* AppDelegate.swift in Sources */,
 				C651935F1C38FAEF00DA3C6E /* SaberTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +567,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C645A9991C3A95DF0045EC5E /* AppDelegate.swift in Sources */,
+				C645A9971C3A95D90045EC5E /* ViewController.swift in Sources */,
 				C651936A1C38FAEF00DA3C6E /* SaberUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +576,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C610BEF31C831B9300FDEF3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C610BEEF1C831B9300FDEF3D /* WatchSaber Extension */;
+			targetProxy = C610BEF21C831B9300FDEF3D /* PBXContainerItemProxy */;
+		};
+		C610BF031C831B9300FDEF3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C610BEE31C831B9300FDEF3D /* WatchSaber */;
+			targetProxy = C610BF021C831B9300FDEF3D /* PBXContainerItemProxy */;
+		};
 		C651935C1C38FAEF00DA3C6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C65193451C38FAEF00DA3C6E /* Saber */;
@@ -296,6 +599,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C610BEE61C831B9300FDEF3D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C610BEE71C831B9300FDEF3D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		C651934D1C38FAEF00DA3C6E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -304,21 +615,81 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C65193521C38FAEF00DA3C6E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C65193531C38FAEF00DA3C6E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C651936C1C38FAEF00DA3C6E /* Debug */ = {
+		C610BF061C831B9400FDEF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				INFOPLIST_FILE = "WatchSaber Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gauthammaker.Saber.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C610BF071C831B9400FDEF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				INFOPLIST_FILE = "WatchSaber Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gauthammaker.Saber.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C610BF0A1C831B9400FDEF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WatchSaber_Extension;
+				INFOPLIST_FILE = WatchSaber/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = gauthammaker.Saber.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C610BF0B1C831B9400FDEF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WatchSaber_Extension;
+				INFOPLIST_FILE = WatchSaber/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = gauthammaker.Saber.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C651936C1C38FAEF00DA3C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -335,6 +706,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -362,7 +734,7 @@
 		C651936D1C38FAEF00DA3C6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -379,6 +751,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -400,10 +773,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Saber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ganeshgautham.Saber;
+				PRODUCT_BUNDLE_IDENTIFIER = gauthammaker.Saber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Saber/Saber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,10 +796,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Saber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ganeshgautham.Saber;
+				PRODUCT_BUNDLE_IDENTIFIER = gauthammaker.Saber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Saber/Saber-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -469,6 +865,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C610BF051C831B9400FDEF3D /* Build configuration list for PBXNativeTarget "WatchSaber Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C610BF061C831B9400FDEF3D /* Debug */,
+				C610BF071C831B9400FDEF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C610BF091C831B9400FDEF3D /* Build configuration list for PBXNativeTarget "WatchSaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C610BF0A1C831B9400FDEF3D /* Debug */,
+				C610BF0B1C831B9400FDEF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C65193411C38FAEF00DA3C6E /* Build configuration list for PBXProject "Saber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -485,6 +897,7 @@
 				C65193701C38FAEF00DA3C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C65193711C38FAEF00DA3C6E /* Build configuration list for PBXNativeTarget "SaberTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +906,7 @@
 				C65193731C38FAEF00DA3C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C65193741C38FAEF00DA3C6E /* Build configuration list for PBXNativeTarget "SaberUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +915,7 @@
 				C65193761C38FAEF00DA3C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

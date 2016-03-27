@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C65193591C38FAEF00DA3C6E"
-               BuildableName = "SaberTests.xctest"
-               BlueprintName = "SaberTests"
-               ReferencedContainer = "container:Saber.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C65193641C38FAEF00DA3C6E"
-               BuildableName = "SaberUITests.xctest"
-               BlueprintName = "SaberUITests"
-               ReferencedContainer = "container:Saber.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -106,6 +86,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Saber"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
