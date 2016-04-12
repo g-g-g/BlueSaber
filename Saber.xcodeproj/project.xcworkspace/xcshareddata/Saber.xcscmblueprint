@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0930EECEC89C0B3F9611B3C55961463E14387649",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0930EECEC89C0B3F9611B3C55961463E14387649" : 0,
+    "5AAA0E241A49D84788D84DE638655D85A7A3AE2E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDE9F51F-289A-4576-BF09-E2C8DC35290C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0930EECEC89C0B3F9611B3C55961463E14387649" : "Saber\/",
+    "5AAA0E241A49D84788D84DE638655D85A7A3AE2E" : "Saber\/Saber\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Saber",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Saber.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gg2001\/Blue-Saber.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0930EECEC89C0B3F9611B3C55961463E14387649"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gg2001\/BlueSaber.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AAA0E241A49D84788D84DE638655D85A7A3AE2E"
+    }
+  ]
+}
