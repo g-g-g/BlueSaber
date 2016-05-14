@@ -1,3 +1,7 @@
 # Blue-Saber
-A GitHub repository for the open-source iOS lightsaber app, Blue Saber. Developed by me in Swift 2.0. Download: https://itunes.apple.com/us/app/blue-saber-the-lightsaber-app/id1076077872?mt=8
 
+**Download** <br>
+https://itunes.apple.com/us/app/blue-saber-the-lightsaber-app/id1076077872?mt=8 <br>
+
+A GitHub repository for the open-source iOS lightsaber app, Blue Saber. Based on Star Wars. <br> 
+Developed with Swift 2.2, Xcode 7.3, iOS 9.3, and Mac OSX El Capitan 10.11.2 <br>
