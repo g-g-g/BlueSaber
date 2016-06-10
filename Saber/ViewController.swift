@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Saber
 //
-//  Created by Ganesh Gautham on 1/3/16.
-//  Copyright © 2016 Ganesh Gautham Industries. All rights reserved.
+//  Created by Gautham Ganesh Elango on 1/3/16.
+//  Copyright © 2016 Gautham Ganesh Elango. All rights reserved.
 //
 
 import UIKit
